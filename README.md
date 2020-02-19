@@ -1,6 +1,6 @@
 ## kaggle_practice_Word2Vec : Bag of Words Meets Bag of Popcorn
 
-*이 repository는 kaggle의 Bag of Words Meets Bag of Popcorn를 연습하기 위해 만든 것입니다. 꼼꼼하게 살펴보려는 목적으로 튜토리얼의 내용을 번역하였으며, 의역 및 생략이 있습니다. part1과 part2-3은 주피터 노트북으로 올려 두었습니다.* 
+*이 repository는 kaggle의 Bag of Words Meets Bag of Popcorn를 연습하기 위해 만든 것입니다. 꼼꼼하게 살펴보려는 목적으로 튜토리얼의 내용을 번역하였으며, 의역 및 생략이 있습니다. part1과 part2-3은 주피터 노트북으로 올려 두었습니다.* {: .text-center }
 
 Google의 Word2Vec은 딥러닝에서 영감을 얻은 방법론으로, 단어들의 의미에 초점을 두고 있습니다. Word2Vec은 단어 간의 의미와 의미 관계를 이해하려고 시도합니다. 이 방법론은 어떤 면에서는 recurrent neural net 또는 deep neural net과 같은 딥 러닝의 접근법과 유사하지만, 계산 방식은 더 효율적입니다. 
 
@@ -25,7 +25,8 @@ Google의 Word2Vec은 딥러닝에서 영감을 얻은 방법론으로, 단어�
 
 ### Acknowledgements
 
-Andrew L. Maas, Raymond E. Daly, Peter T. Pham, Dan Huang, Andrew Y. Ng, and Christopher Potts. (2011). "Learning Word Vectors for Sentiment Analysis." The 49th Annual Meeting of the Association for Computational Linguistics (ACL 2011).
+Andrew L. Maas, Raymond E. Daly, Peter T. Pham, Dan Huang, Andrew Y. Ng, and Christopher Potts. (2011). 
+"Learning Word Vectors for Sentiment Analysis." The 49th Annual Meeting of the Association for Computational Linguistics (ACL 2011).
 
 ### Metric
 
@@ -61,7 +62,7 @@ Area under the ROC curve
     - 테스트 셋. 탭으로 구분된 파일이며, 헤더 행이 있습니다. 25,000개의 행은 id 와 각 리뷰에 해당하는 텍스트를 포함합니다. 이 과제는 테스트 셋의 각 리뷰에 대한 감성을 예측하는 것입니다. 
     
 * unlabeledTrainData 
-    - 추가된 훈련 셋이며, 라벨이 없습니다. 탭으로 구분된 파일이고, 헤어가 있으며, 각 리뷰의 id와 텍스트를 포함합니다. 
+    - 추가된 훈련 셋이며, 라벨이 없습니다. 탭으로 구분된 파일이고, 헤더가 있으며, 각 리뷰의 id와 텍스트를 포함합니다. 
 * sampleSubmission 
     - 쉼표로 구분된 제출 파일 샘플입니다.
     
