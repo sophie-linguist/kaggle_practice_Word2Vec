@@ -47,15 +47,6 @@ Area under the ROC curve
 
 [2] "Deep Learning Tutorial" (2013 Presentation by Yann LeCun and Marc'Aurelio Ranzato)
 
-### Where Does Word2Vec Fit in?
-
-Word2Vec
-Word2Vec works in a way that is similar to deep approaches such as recurrent neural nets or deep neural nets, but it implements certain algorithms, such as hierarchical softmax, that make it computationally more efficient.  
-
-See Part 2 of this tutorial for more on Word2Vec, as well as this paper: Efficient Estimation of Word Representations in Vector Space
-
-이 튜토리얼에서, 우리는 학습에 대해 혼합적 접근법을 취합니다. 비지도학습(Word2Vec) 이후에 지도 학습(the Random Forest)을 진행합니다. 
-
 ### Data Set
 
 주석 데이터 셋은 50,000개의 IMDB movie review로 구성되며, 감성 분석을 목적으로 선택된 것입니다. 리뷰의 감성은 두 개로 분류되는데, IMDB 점수가 5 이하인 것의 감성 코드는 0이고, 7 이상인 리뷰의 감성 코드는 1입니다. 각 영화별 리뷰는 30개 이하입니다. 이 중 훈련 데이터 셋에 있는 25,000개, test set에 있는 25,000개가 리뷰한 영화는 서로 (완전히) 다릅니다. 이외에, 50,000개의 IMDB 리뷰는 점수 라벨을 제공하지 않습니다. 
